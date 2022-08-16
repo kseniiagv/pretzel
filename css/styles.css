@@ -65,7 +65,9 @@ h1 {
   margin: 0 auto;
 }
 
-a {
+.pages a,
+.photos-row-3 a,
+.pages-1 a {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -77,7 +79,9 @@ a {
   font-weight: 600;
 }
 
-a:hover {
+.pages a:hover,
+.photos-row-3 a:hover,
+.pages-1 a:hover {
   color: rgb(255, 247, 0);
   background: rgba(115, 62, 1, 0.5);
   transition: all 0.2s ease;
@@ -304,6 +308,21 @@ ul.instructions li::before {
 .recipe-img-6,
 .recipe-img-7 {
   width: 100%;
+}
+
+.authorship {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.authorship a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
+}
+
+.authorship a:hover {
+  color: rgb(115, 62, 1);
 }
 
 .pages-1 {
